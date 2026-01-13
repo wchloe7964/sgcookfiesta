@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fix: Background image fallback if video fails */
+#home.video-hero {
+  background-image: url("/images/bg_1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Fix: Ensure YTPlayer wrapper stays behind content */
+.mbYTP_wrapper {
+  z-index: 0 !important;
+}
+
+.sponsor-cloud {
+  gap: 40px 60px;
+}
+
+.sponsor-item img {
+  max-width: 140px;
+  max-height: 60px;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.sponsor-item:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.voting-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #ff4d4d;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
